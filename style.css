@@ -62,18 +62,13 @@ aboutme{
 
 .description{
   line-height:2;
-  color:#aaa;
+  color:black;
 }
 
 .title:hover{
   animation-name:move;
   animation-duration:2s;
   animation-timing-function:linear;
-}
-
-.description:hover{
-  color:black;
-  font-weight:bold;
 }
 
 @keyframes move {
